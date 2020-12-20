@@ -24,7 +24,7 @@ class PrimeNumber02 extends Thread {
 
 public class Main {
     public static void main(String[] args) {
-        PrimeNumber02 pn = new PrimeNumber01(20);
+        PrimeNumber02 pn = new PrimeNumber02(20, "소수 만드는 스레드");
         pn.start();
     }
 }
